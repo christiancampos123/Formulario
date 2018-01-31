@@ -3,9 +3,7 @@
 	<question id='profe001'>
 		<type>text</type>
 		<title>
-			1- Un científico del refugio se dirige a ti histérico y grita
-			"¡Voy a poner el harmonizador de Quántum en tu cámara de resonancia 
-			fotónica!" ¿Tú qué respondes? (Genial,NO,Nada,Ehe Ehe) 
+			1- Un científico del refugio se dirige a ti histérico y grita"¡Voy a poner el harmonizador de Quántum en tu cámara de resonancia fotónica!" ¿Tú qué respondes? (Genial,NO,Nada,Ehe Ehe) 
 		</title>
 		<answer>Genial</answer>
 	</question>
@@ -38,8 +36,9 @@
 		</title>
 		<option>Abrazarlo y decirle que no va a pasarle nada</option>
 		<option>Confiscar el objeto robado por la fuerza y dejarlo allí castigado. </option> 
-		<answer>Meterle la mano en el bolsillo para recuperar el objeto robado y abandonarlo a su suerte</answer>
+		<option>Meterle la mano en el bolsillo para recuperar el objeto robado y abandonarlo a su suerte</option>
 		<option>Llevar al muchacho a un lugar seguro y luego presentarlo ante el supervisor</option> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+		<answer>2</answer>
 	</question>
 	
 	<question id='profe005'>
@@ -49,10 +48,10 @@
 		<option>El supervisor. </option> 
 		<option>El supervisor. </option> 
 		<option>El supervisor. </option>
+		<answer>0</answer>
 		<answer>1</answer>
 		<answer>2</answer>
 		<answer>3</answer>
-		<answer>4</answer>
 	</question>
 
 	<question id='profe006'>
@@ -63,7 +62,7 @@
 		<option>Pedirle a tu abuela una metralleta. Al fin y al cabo, no quieres fallar.</option> 
 		<option>Haces como si no hubiera pasado, total ya esta mayor.</option>
 		<answer>1</answer>
-		<answer>3</answer>
+		<answer>2</answer>
 	</question>
 	
 	<question id='profe007'>
@@ -73,8 +72,8 @@
 		<option>Ofrecerle tu posesión más preciada por la vida del residente.</option> 
 		<option>Pedirle a tu abuela una metralleta. Al fin y al cabo, no quieres fallar.</option> 
 		<option>Tirarle el té a la cara a tu abuela</option>
-		<answer>1</answer>
-		<answer>3</answer>
+		<answer>0</answer>
+		<answer>2</answer>
 	</question>
 
 	<question id='profe008'>
@@ -94,7 +93,7 @@
 		<option>Robar el cómic a punta de pistola.</option> 
 		<option>Entrar en el cuarto del residente y robarle el cómic de su escritorio.</option> 
 		<option>Echarle una gotas de somnífero en la Nuka Cola y llevarte el cómic cuando esté inconsciente.</option>
-		<answer>4</answer>
+		<answer>3</answer>
 	</question>	
 	
 	<question id='profe010'>
