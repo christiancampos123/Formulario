@@ -3,7 +3,7 @@
 	<question id='profe001'>
 		<type>text</type>
 		<title>
-			1- Un científico del refugio se dirige a ti histérico y grita"¡Voy a poner el harmonizador de Quántum en tu cámara de resonancia fotónica!" ¿Tú qué respondes? (Genial,NO,Nada,Ehe Ehe) 
+			Un científico del refugio se dirige a ti histérico y grita"¡Voy a poner el harmonizador de Quántum en tu cámara de resonancia fotónica!" ¿Tú qué respondes? (Genial,NO,Nada,Ehe Ehe) 
 		</title>
 		<answer>Genial</answer>
 	</question>
@@ -12,7 +12,7 @@
 	<question id='profe002'>
 		<type>text</type>
 		<title>
-			2- ¡Enhorabuena! Has entrado en uno de los equipos de béisbol del Refugio 101. ¿Qué posición prefieres?(Lanzador, Receptor, Bateador o Ninguna) 
+			¡Enhorabuena! Has entrado en uno de los equipos de béisbol del Refugio 101. ¿Qué posición prefieres?(Lanzador, Receptor, Bateador o Ninguna) 
 		</title>
 		<answer>Bateador</answer>
 	</question>
