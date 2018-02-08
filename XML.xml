@@ -24,6 +24,7 @@
 			Estando de práctica en la clínica, un paciente entra a trompicones con una extraña infección en el pie. La infección se está extendiendo a un ritmo alarmante, pero el doctor ha salido un momento. ¿Qué haces? 
 		</title>
 		<option>Amputarle el pie antes de que la infección se extienda.</option>
+		<option>Retener al paciente y limitarte a ver cómo la infección se extiende.</option>
 		<option>Pedir ayuda a gritos.</option> 
 		<option>Tratar la zona infectada lo mejor que sepas.</option>
 		<answer>Retener al paciente y limitarte a ver cómo la infección se extiende.</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
