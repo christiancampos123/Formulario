@@ -45,10 +45,10 @@
 	<question id='profe005'>
 		<type>multiple</type>
 		<title>¿Quién es indudablemente la persona más importante del Refugio 101, el que nos protege de la dureza del Yermo atómico, y a quien debemos todo lo que tenemos, incluidas nuestras vidas? (Marca la/s casilla/s que creas conveniente)</title>
-		<option>El supervisor. </option>
-		<option>El supervisor. </option> 
-		<option>El supervisor. </option> 
-		<option>El supervisor. </option>
+		<option>El supervisor.El supervisor.El supervisor.El supervisor. </option>
+		<option>El supervisor.El supervisor.El supervisor.El supervisor. </option> 
+		<option>El supervisor.El supervisor.El supervisor.El supervisor. </option> 
+		<option>El supervisor.El supervisor.El supervisor.El supervisor. </option>
 		<answer>0</answer>
 		<answer>1</answer>
 		<answer>2</answer>
