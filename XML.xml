@@ -45,10 +45,10 @@
 	<question id='profe005'>
 		<type>multiple</type>
 		<title>¿Quién es indudablemente la persona más importante del Refugio 101, el que nos protege de la dureza del Yermo atómico, y a quien debemos todo lo que tenemos, incluidas nuestras vidas? (Marca la/s casilla/s que creas conveniente)</title>
-		<option>El supervisor.El supervisor.El supervisor.El supervisor. </option>
-		<option>El supervisor.El supervisor.El supervisor.El supervisor. </option> 
-		<option>El supervisor.El supervisor.El supervisor.El supervisor. </option> 
-		<option>El supervisor.El supervisor.El supervisor.El supervisor. </option>
+		<option>El supervisor. </option>
+		<option>El supervisor. </option> 
+		<option>El supervisor. </option> 
+		<option>El supervisor. </option>
 		<answer>0</answer>
 		<answer>1</answer>
 		<answer>2</answer>
@@ -59,9 +59,9 @@
 		<type>multiple</type>
 		<title>El viejo señor Abernathy ha vuelto a encerrarse en las dependencias y se te ordena que lo saques. ¿Cómo procedes? (Escoge 2 opciones)</title>
 		<option>Utilizas una horquilla para abrir la cerradura de la puerta.</option>
-		<option>Pasas de las ordenes del supervisor</option> 
-		<option>Pedirle a tu abuela una metralleta. Al fin y al cabo, no quieres fallar.</option> 
-		<option>Haces como si no hubiera pasado, total ya esta mayor.</option>
+		<option>Pasas de las ordenes del supervisor </option> 
+		<option>Pedirle a tu abuela una metralleta. </option> 
+		<option>Haces como si no hubiera pasado.</option>
 		<answer>1</answer>
 		<answer>2</answer>
 	</question>
