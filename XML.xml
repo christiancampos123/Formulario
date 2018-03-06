@@ -27,7 +27,7 @@
 		<option>Retener al paciente y limitarte a ver cómo la infección se extiende.</option>
 		<option>Pedir ayuda a gritos.</option> 
 		<option>Tratar la zona infectada lo mejor que sepas.</option>
-		<answer>1</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+		<answer>0</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
 	</question>
  
 	<question id='profe004'>
