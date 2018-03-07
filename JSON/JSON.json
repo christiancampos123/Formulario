@@ -1,0 +1,139 @@
+n').length;
+			for (i = 0; i < nopt; i++) {
+				opcionesSelect[i] = xmlDoc.getElementsByTagName("question")[numPregunta].getElementsByTagName('option')[i].innerHTML;
+			}
+			ponerDatosChekboxHtml( opcionesSelect, numPregunta);
+		}
+	
+	//imprimimos lo guardado de las checkbox	
+	function ponerDatosChekboxHtml( opcionesSelect, numPregunta) {
+			var radioCont = document.getElementsByClassName("clasecheckbox")[numPregunta-6];
+			for (i = 0; i < opcionesSelect.length; i++, z++) {
+				var input = document.createElement("input");
+				var label = document.createElement("label");
+				label.innerHTML=opcionesSelect[i];
+				label.htmlFor = ("checkbox" + z);
+				input.type="checkbox";
+				input.id = ("checkbox" + z)
+				input.value=i;
+				radioCont.appendChild(input);
+				radioCont.appendChild(label);
+				radioCont.appendChild(document.createElement("br"));
+				radioCont.appendChild(document.createElement("br"));
+
+			}
+		}	
+		
+	//recuperamos los radios  
+	var x=0;  
+	for (numPregunta=8; numPregunta<10; numPregunta++) {
+		var opcionesSelect = [];
+		var nopt = xmlDoc.getElementsByTagName("question")[numPregunta].getElementsByTagName('option').length;
+		for (i = 0; i < nopt; i++) {
+			opcionesSelect[i] = xmlDoc.getElementsByTagName("question")[numPregunta].getElementsByTagName('option')[i].innerHTML;
+		}
+		ponerDatosRadioHtml( opcionesSelect, numPregunta);
+	}
+		
+	function ponerDatosRadioHtml( opt, numPregunta) {
+		var radioCont = document.getElementsByClassName("radio")[numPregunta-8];
+		var a = 0;
+		for (i = 0; i < opcionesSelect.length; i++) {
+			var input = document.createElement("input");
+			var label = document.createElement("label");
+			label.innerHTML=opt[i];
+			input.type="radio";
+			input.id = ("radius" + x);
+			label.htmlFor = ("radius" + x);
+			input.value=i;
+			input.name=("nombre"+a);
+			radioCont.appendChild(input);
+			radioCont.appendChild(label);
+			radioCont.appendChild(document.createElement("br"));
+			radioCont.appendChild(document.createElement("br"));
+			x+a persona más importante del Refugio 101, el que nos protege de la dureza del Yermo atómico, y a quien debemos todo lo que tenemos, incluidas nuestras vidas? (Marca la/s casilla/s que creas conveniente)",
+        "option": [
+          "El supervisor. ",
+          "El supervisor. ",
+          "El supervisor. ",
+          "El supervisor. "
+        ],
+        "answer": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "-id": "profe006",
+        "type": "multiple",
+        "title": "El viejo señor Abernathy ha vuelto a encerrarse en las dependencias y se te ordena que lo saques. ¿Cómo procedes? (Escoge 2 opciones)",
+        "option": [
+          "Utilizas una horquilla para abrirla",
+          "Pasas de las ordenes del supervisor ",
+          "Pedirle a tu abuela una metralleta. ",
+          "Haces como si no hubiera pasado."
+        ],
+        "answer": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "-id": "profe007",
+        "type": "checkbox",
+        "title": "Tu abuela te invita a tomar el té, pero para tu sorpresa te da una pistola y te ordena que mates a otro residente del refugio. ¿Qué haces? ",
+        "option": [
+          "Obedece a tu abuela y matar al residente con la pistola.",
+          "Ofrecerle tu posesión más preciada por la vida del residente.",
+          "Pedirle a tu abuela una metralleta. Al fin y al cabo, no quieres fallar.",
+          "Tirarle el té a la cara a tu abuela"
+        ],
+        "answer": [
+          "0",
+          "2"
+        ]
+      },
+      {
+        "-id": "profe008",
+        "type": "checkbox",
+        "title": "¡Oh no! ¡Has estado expuesto a radiación y te ha salido del estómago una mano mutante! ¿Cuál es el mejor tratamiento? ",
+        "option": [
+          "Una bala en el cerebro.",
+          "Grandes dosis de agente anti-mutágeno",
+          "Rezar. Con suerte, Dios se apiadará de ti y te recompensará por tu fe.",
+          "La eliminación del tejido mutante mediante un láser de precisión."
+        ],
+        "answer": [
+          "1",
+          "3"
+        ]
+      },
+      {
+        "-id": "profe009",
+        "type": "radio",
+        "title": "Un compañero residente del Refugio 101 está en posesión del número 1 del cómic de Grognak el Bárbaro. Tú lo quieres. ¿Cuál es la mejor manera de conseguirlo?",
+        "option": [
+          "Intercambiar alguna de tus valiosas posesiones por el cómic.",
+          "Robar el cómic a punta de pistola.",
+          "Entrar en el cuarto del residente y robarle el cómic de su escritorio.",
+          "Echarle una gotas de somnífero en la Nuka Cola y llevarte el cómic cuando esté inconsciente."
+        ],
+        "answer": "3"
+      },
+      {
+        "-id": "profe010",
+        "type": "radio",
+        "title": "Decides divertirte gastándole una broma a tu padre. Aprovechas que nadie te ve, te metes en su cuarto de baño y...",
+        "option": [
+          "Aflojas los tornillos de una cuantas tuberías. Cuando se le ocurra abrir los grifos, se inundará la habitación.",
+          "Pones un petardo en el baño. Eso seguro que montará un buen lío.",
+          "Fuerzas la cerradura de su botiquín y le cambias las pastillas para la hipertensión por sacarina.",
+          "Manipular la máquina de afeitar para que le dé una descarga la próxima vez que se afeite."
+        ],
+        "answer": "2"
+      }
+    ]
+  }
+}

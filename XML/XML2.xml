@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE questions SYSTEM "DTD.dtd">
+<questions>
+	<question>
+		<type>text</type>
+		<title>
+			Un científico del refugio se dirige a ti histérico y grita"¡Voy a poner el harmonizador de Quántum en tu cámara de resonancia fotónica!" ¿Tú qué respondes? (Genial,NO,Nada,Ehe Ehe) 
+		</title>
+		<answer>Genial</answer>
+	</question>
+	
+	
+	<question>
+		<type>text</type>
+		<title>
+			¡Enhorabuena! Has entrado en uno de los equipos de béisbol del Refugio 101. ¿Qué posición prefieres?(Lanzador, Receptor, Bateador o Ninguna) 
+		</title>
+		<answer>Bateador</answer>
+	</question>
+ 
+ 
+	<question>
+		<type>select</type>
+		<title>
+			Estando de práctica en la clínica, un paciente entra a trompicones con una extraña infección en el pie. La infección se está extendiendo a un ritmo alarmante, pero el doctor ha salido un momento. ¿Qué haces? 
+		</title>
+		<option>Amputarle el pie antes de que la infección se extienda.</option>
+		<option>Retener al paciente y limitarte a ver cómo la infección se extiende.</option>
+		<option>Pedir ayuda a gritos.</option> 
+		<option>Tratar la zona infectada lo mejor que sepas.</option>
+		<answer>0</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+	</question>
+ 
+	<question>
+		<type>select</type>
+		<title>
+			Encuentras a un joven perdido en los niveles más bajos del refugio. Está hambriento y asustado, pero también parece estar en posesión de objetos robados. ¿Qué haces? 
+		</title>
+		<option>Abrazarlo y decirle que no va a pasarle nada</option>
+		<option>Confiscar el objeto robado por la fuerza y dejarlo allí castigado. </option> 
+		<option>Meterle la mano en el bolsillo para recuperar el objeto robado y abandonarlo a su suerte</option>
+		<option>Llevar al muchacho a un lugar seguro y luego presentarlo ante el supervisor</option> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+		<answer>2</answer>
+	</question>
+	
+	<question>
+		<type>multiple</type>
+		<title>¿Quién es indudablemente la persona más importante del Refugio 101, el que nos protege de la dureza del Yermo atómico, y a quien debemos todo lo que tenemos, incluidas nuestras vidas? (Marca la/s casilla/s que creas conveniente)</title>
+		<option>El supervisor. </option>
+		<option>El supervisor. </option> 
+		<option>El supervisor. </option> 
+		<option>El supervisor. </option>
+		<answer>0</answer>
+		<answer>1</answer>
+		<answer>2</answer>
+		<answer>3</answer>
+	</question>
+
+	<question>
+		<type>multiple</type>
+		<title>El viejo señor Abernathy ha vuelto a encerrarse en las dependencias y se te ordena que lo saques. ¿Cómo procedes? (Escoge 2 opciones)</title>
+		<option>Utilizas una horquilla para abrirla</option>
+		<option>Pasas de las ordenes del supervisor </option> 
+		<option>Pedirle a tu abuela una metralleta. </option> 
+		<option>Haces como si no hubiera pasado.</option>
+		<answer>1</answer>
+		<answer>2</answer>
+	</question>
+	
+	<question>
+		<type>checkbox</type>
+		<title>Tu abuela te invita a tomar el té, pero para tu sorpresa te da una pistola y te ordena que mates a otro residente del refugio. ¿Qué haces? </title>
+		<option>Obedece a tu abuela y matar al residente con la pistola.</option>
+		<option>Ofrecerle tu posesión más preciada por la vida del residente.</option> 
+		<option>Pedirle a tu abuela una metralleta. Al fin y al cabo, no quieres fallar.</option> 
+		<option>Tirarle el té a la cara a tu abuela</option>
+		<answer>0</answer>
+		<answer>2</answer>
+	</question>
+
+	<question>
+		<type>checkbox</type>
+		<title>¡Oh no! ¡Has estado expuesto a radiación y te ha salido del estómago una mano mutante! ¿Cuál es el mejor tratamiento? </title>
+		<option>Una bala en el cerebro.</option>
+		<option>Grandes dosis de agente anti-mutágeno</option> 
+		<option>Rezar. Con suerte, Dios se apiadará de ti y te recompensará por tu fe.</option> 
+		<option>La eliminación del tejido mutante mediante un láser de precisión.</option>
+		<answer>1</answer>
+		<answer>3</answer>
+	</question>
+	
+	<question>
+		<type>radio</type>
+		<title>Un compañero residente del Refugio 101 está en posesión del número 1 del cómic de Grognak el Bárbaro. Tú lo quieres. ¿Cuál es la mejor manera de conseguirlo?</title>
+		<option>Intercambiar alguna de tus valiosas posesiones por el cómic.</option>
+		<option>Robar el cómic a punta de pistola.</option> 
+		<option>Entrar en el cuarto del residente y robarle el cómic de su escritorio.</option> 
+		<option>Echarle una gotas de somnífero en la Nuka Cola y llevarte el cómic cuando esté inconsciente.</option>
+		<answer>3</answer>
+	</question>	
+	
+	<question>
+		<type>radio</type>
+		<title>Decides divertirte gastándole una broma a tu padre. Aprovechas que nadie te ve, te metes en su cuarto de baño y...</title>
+		<option>Aflojas los tornillos de una cuantas tuberías. Cuando se le ocurra abrir los grifos, se inundará la habitación.</option>
+		<option>Pones un petardo en el baño. Eso seguro que montará un buen lío.</option> 
+		<option>Fuerzas la cerradura de su botiquín y le cambias las pastillas para la hipertensión por sacarina.</option> 
+		<option>Manipular la máquina de afeitar para que le dé una descarga la próxima vez que se afeite.</option>
+		<answer>2</answer>
+	</question>	
+</questions>

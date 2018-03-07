@@ -1,0 +1,327 @@
+body,html{
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+
+h3{
+	margin-left:5%;
+	margin-right:5%;
+	font-size:120%;
+}
+
+h2{
+	margin-left:5%;
+	margin-right:5%;
+	font-size:150%;
+}
+
+input[type = checkbox], [type = radio]{
+	
+	width:20px;
+	height:20px;
+}
+
+b{
+	margin-left:3%;
+}
+
+
+#notaza{
+	position:fixed;
+	display:none;
+	Text-align:center;
+	font-size:400%;
+	background-color:grey;
+	height:100%;
+	width:100%;
+	z-index:100;
+	top:0%;
+}
+
+#botonReturn{
+	position:fixed;
+	display:none;
+	top:40%;
+	left:55%;
+	text-align:center;
+	background-color:green;
+	border:solid;
+	border-color:lightgreen;
+	border-width:5px;
+	border-radius:20px;
+	font-size:250%;
+	z-index:900;
+	width:40%;
+	height:10%;
+	text-align:center;
+} 
+
+#botonRepeat{
+	position:fixed;
+	text-align:center;
+	display:none;
+	top:40%;
+	left:5%;
+	background-color:green;
+	border:solid;
+	border-color:lightgreen;
+	border-width:5px;
+	border-radius:20px;
+	width:40%;
+	height:10%;
+	font-size:250%;
+	z-index:900;
+}
+
+#elFijo{
+	position:fixed;
+	top:0;
+	height:25%;
+	width:90%;
+	left:5%;
+	z-index:10;
+}
+
+#goatboi{
+	position:relative;
+	top:-100%;
+	width:50%;
+	height:95%;
+	left:25%;
+	background-color:white;
+}
+
+#goatboi2,#goatboi3{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+
+#masGrande{
+	background-image:url("../img/fondo3.png");
+	background-size:100%;
+	position:relative;
+	width:90%;
+	top:25%;
+	left:5%;
+}
+
+#elGrande{
+	position:relative;
+	top:0;
+	width:100%;
+}
+
+#elDeAbajo {
+	position:relative;
+	background-color:black;
+	height:1%;
+}
+
+#elDeMasAbajo {
+	position:relative;
+	background-color:white;
+	height:3%;
+}
+
+#pregunta1,#pregunta2,#pregunta3,#pregunta4,#pregunta5,#pregunta6,
+#pregunta7,#pregunta8,#pregunta9,#pregunta10{
+	border-radius:10px;
+	background-color: rgba(128, 128, 128, 0.2);
+	border-color:rgba(128, 20, 128, 0.2);
+	border-style:solid;
+}
+#pregunta1a,#pregunta2a{
+	width:80%;
+}
+
+#pregunta3a,#pregunta4a{
+	position:relative;
+	width:50%
+}
+#pregunta5a,#pregunta6a{
+	position:relative;
+	width:90%;
+}
+
+#pregunta7a,#pregunta8a,#pregunta9a,#pregunta10a{
+	width:90%;
+}
+
+#pregunta1a,#pregunta2a,#pregunta3a,#pregunta4a,#pregunta5a,
+#pregunta6a,#pregunta7a,#pregunta8a,#pregunta9a,#pregunta10a{
+	position:relative;
+	left:5%;
+	font-size:100%
+}
+
+#pregunta1{
+	position:relative;
+	width:94%;
+	left:3%;
+	top:2.9%;
+	margin-bottom:2%;
+	z-index:5;
+}
+
+#pregunta2{
+	position:relative;
+	width:94%;
+	left:3%;
+	top:3%;
+	margin-bottom:2%;
+	z-index:5;
+}
+
+#pregunta3{
+	position:relative;
+	width:94%;
+	left:3%;
+	top:3%;
+	margin-bottom:2%;
+	z-index:5;
+}
+
+#pregunta4{
+	position:relative;
+	width:94%;
+	left:3%;
+	top:3%;
+	margin-bottom:2%;
+	z-index:5;
+}
+
+#pregunta5{
+	position:relative;
+	width:94%;
+	left:3%;
+	top:3%;
+	margin-bottom:2%;
+	z-index:5;
+}
+
+#pregunta6{
+	position:relative;
+	width:94%;
+	left:3%;
+	top:3%;
+	margin-bottom:2%;
+	z-index:5;
+}
+
+#pregunta7{
+	position:relative;
+	width:94%;
+	left:3%;
+	top:3%;
+	margin-bottom:2%;
+	z-index:5;
+}
+
+#pregunta8{
+	position:relative;
+	width:94%;
+	left:3%;
+	top:3%;
+	margin-bottom:2%;
+	z-index:5;
+}
+
+#pregunta9{
+	position:relative;
+	width:94%;
+	left:3%;
+	top:3%;
+	margin-bottom:2%;
+	z-index:5;
+}
+
+#pregunta10{
+	position:relative;
+	width:94%;
+	left:3%;
+	top:3%;
+	margin-bottom:2%;
+	z-index:5;
+}
+
+#botonSubmit{
+	position:relative;
+	border-color:black;
+	width:90%;
+	left:5%;
+	height:50px;
+	text-align:center;
+	border-radius:5%;
+	margin-bottom:20px;
+}
+
+/* INDEX */
+
+#masGrande1{
+	background-image:url("../img/fondo3.png");
+	background-size:100%;
+	position:relative;
+	width:90%;
+	top:25%;
+	left:5%;
+}
+
+#elGrande1{
+	position:relative;
+	top:0;
+	width:100%;
+	height:100%;
+}
+
+#elDeAbajo1 {
+	position:relative;
+	background-color:black;
+	height:1%;
+	top:25%;
+	width:90%;
+	left:5%;
+}
+
+#elDeMasAbajo1 {
+	position:relative;
+	background-color:white;
+	height:3%;
+}
+
+#boton1{
+	position:relative;
+	bottom:5%;
+	width:10%;
+	height:20%;
+	left:45%;
+}
+
+#goatboi1{
+	position:relative;
+	top:-100%;
+	width:40%;
+	height:95%;
+	left:30.5%;
+	background-color:white;
+}
+
+#botonSubmit{
+	position:relative;
+	border-color:black;
+	width:20%;
+	height:50px;
+	left:40%;
+	text-align:center;
+	border-radius:5%;
+	margin-bottom:20px;
+}
+
+#inicio{
+	position:relative;
+	height:200%;
+	width:300%;
+	right:60%;
+}
+
