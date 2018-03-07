@@ -29,4 +29,18 @@ Dispone de:
 
 -La pagina del test.
 
--Un desplegable con tu nota y dos botones. (repetir test y volver al inicio)
+-Un desplegable con tu nota y dos botones. (repetir test y volver al inicio).
+
+
+JavaScript:
+
+-Hace un recorrido asegurando que has contestado todo. En caso de que no se haya contestado todo sale un alert.
+
+-Guarda todas las respuestas en una array.
+
+-Implementa una corrección de cada uno de los tipos de preguntas. Lo hace mediante comparar los valores guardados en la array
+con los que son correctos del xml.
+
+-Hace un sumatorio de los valores de cada pregunta y restas.
+
+-Hace un display none de toda la página mostrando solo el valor de tu nota y dos botones.
