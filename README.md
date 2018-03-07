@@ -25,9 +25,9 @@ contestación, solo dará por válidas las que te permiten ser el tatuador de el
 
 Dispone de:
 
--Una pagina principal con las instrucciones y un botón para iniciar el test.
+-Una página principal con las instrucciones y un botón para iniciar el test.
 
--La pagina del test.
+-La página del test.
 
 -Un desplegable con tu nota y dos botones. (repetir test y volver al inicio).
 
