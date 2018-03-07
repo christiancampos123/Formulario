@@ -1,5 +1,5 @@
 //LEER XML de xml/numeracos.xml
-var url="https://rawgit.com/christiancampos123/Formulario/master/XML/XML.xml";
+var url="https://rawgit.com/christiancampos123/Formulario/master/XML/XML2.xml";
 var texto;
 var a = 0;
 var c = 0;
