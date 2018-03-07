@@ -98,7 +98,7 @@
 	</question>	
 	
 	<question id='profe010'>
-		<type>checkbox</type>
+		<type>radio</type>
 		<title>Decides divertirte gastándole una broma a tu padre. Aprovechas que nadie te ve, te metes en su cuarto de baño y...</title>
 		<option>Aflojas los tornillos de una cuantas tuberías. Cuando se le ocurra abrir los grifos, se inundará la habitación.</option>
 		<option>Pones un petardo en el baño. Eso seguro que montará un buen lío.</option> 
