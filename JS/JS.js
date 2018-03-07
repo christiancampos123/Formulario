@@ -17,14 +17,14 @@ window.onload = function(){
 	
     formElement.onsubmit = function(){
         inicializar();
-		//if (comprobarPreg()==true){
+		if (comprobarPreg()==true){
 		corrText();
         corrSelect();
 		corrRadio();
 		corrSelectMult();
 		corrCheck();
         mostrarNota();
-		//}
+		}
         return false;
     }
 }
